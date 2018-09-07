@@ -10,7 +10,7 @@ Any help required with git - https://medium.freecodecamp.org/follow-these-simple
 THIS IS OUR MAIN APPLICATION.
 -
 
-Pull this repository into your local repo using ' $ git pull origin master ' command on the git bash opened in your local repo.
+Pull this repository into your local repo in your local repo.
 
 ..........
 
