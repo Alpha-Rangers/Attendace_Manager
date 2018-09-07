@@ -28,7 +28,7 @@ Create new branch for everytime you develop the code for something new, and of t
 
 -> Use proper pull requests to merge with the origin.
 
--> Pull the latest changes in the repo everytime, before you start developing and Push the code at the end of your work. Everytime.
+-> Pull the latest changes in the repo everytime, before you start developing and Push the code at the end of your work. Every. Time.
 
 -> Use proper IDENTATION !
 
