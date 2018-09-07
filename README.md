@@ -3,8 +3,9 @@ Ionic App Repo for DBMS ( TE - 2018 )
 
 Xecutr/attendenceManager
 
+___________________________
 
-Any help required with git - https://medium.freecodecamp.org/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f
+A Proper Git Tutorial - https://medium.freecodecamp.org/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f
 
 -
 THIS IS OUR MAIN APPLICATION.
