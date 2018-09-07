@@ -5,7 +5,7 @@ Xecutr/attendenceManager
 
 ___________________________
 
-A Proper Git Tutorial - https://medium.freecodecamp.org/follow-these-simple-rules-and-youll-become-a-git-and-github-master-e1045057468f
+A Proper Git Tutorial - https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
 -
 THIS IS OUR MAIN APPLICATION.
