@@ -12,10 +12,12 @@ THIS IS OUR MAIN APPLICATION.
 
 Pull this repository into your local repo using ' $ git pull origin master ' command on the git bash opened in your local repo.
 
-..
+..........
+
 To start developing the project in Ionic directly, find all the necessary information in this thread -
 https://github.com/ionic-team/ionic/issues/2361
-..
+
+...........
 
 
 These few rules will help us maintain the project and use the resources provided by git completely.
