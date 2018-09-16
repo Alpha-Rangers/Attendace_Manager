@@ -4,6 +4,9 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
+import { FacultyLoginPage } from '../pages/login-faculty/login-faculty';
+import { StudentLoginPage } from '../pages/login-student/login-student';
+
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 
@@ -15,6 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
+    FacultyLoginPage,
+    StudentLoginPage,
     ListPage
   ],
   imports: [
@@ -26,6 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HelloIonicPage,
     ItemDetailsPage,
+    FacultyLoginPage,
+    StudentLoginPage,
     ListPage
   ],
   providers: [

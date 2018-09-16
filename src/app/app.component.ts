@@ -8,6 +8,9 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { FacultyLoginPage } from '../pages/login-faculty/login-faculty';
+import { StudentLoginPage } from '../pages/login-student/login-student';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -30,7 +33,9 @@ export class MyApp {
     // set our app's pages
     this.pages = [
       { title: 'Home', component: HelloIonicPage },
-      { title: 'My First List', component: ListPage }
+      { title: 'My First List', component: ListPage },
+      { title: 'Faculty Login', component: FacultyLoginPage },
+      { title: 'Student Login', component: StudentLoginPage }
     ];
   }
 
