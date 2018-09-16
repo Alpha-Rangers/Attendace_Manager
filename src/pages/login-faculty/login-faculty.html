@@ -13,12 +13,17 @@
   <h3 align=center>Faculty Login</h3>
 
   <form action=# method="post">
-    <label> Username :
-      <input type="text" name="username" placeholder="Enter Username"><br><br>
-    </label>
-    <label> Password :
-      <input type="password" name="password" placeholder="Enter your Password"><br><br>
-    </label>
+      <ion-list>
+        <ion-item>
+          <ion-label floating>Username</ion-label>
+          <ion-input type="text" value=""></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-list>
     <button ion-button color="primary" type="submit">Login</button>
   </form>
 

@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>ClassRoom</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-list>
+  <ion-item>
+    <ion-label>Year</ion-label>
+    <ion-select [(ngModel)]="year">
+      <ion-option value="fe">FE</ion-option>
+      <ion-option value="se">SE</ion-option>
+      <ion-option value="te">TE</ion-option>
+      <ion-option value="be">BE</ion-option>
+    </ion-select>
+  </ion-item>
+</ion-list>
+<ion-list>
+
+<ion-item>
+  <ion-label>Branch</ion-label>
+  <ion-select [(ngModel)]="branch">
+    <ion-option value="fe">Computer</ion-option>
+    <ion-option value="se">IT</ion-option>
+    <ion-option value="te">E&TC</ion-option>
+  </ion-select>
+</ion-item>
+</ion-list>
+
+  <!--p>
+    <button ion-button color="primary" menuToggle>Toggle Menu</button>
+  </p-->
+
+</ion-content>

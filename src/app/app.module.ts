@@ -7,7 +7,7 @@ import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { FacultyLoginPage } from '../pages/login-faculty/login-faculty';
 import { StudentLoginPage } from '../pages/login-student/login-student';
 
-import { ItemDetailsPage } from '../pages/item-details/item-details';
+//import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -17,7 +17,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HelloIonicPage,
-    ItemDetailsPage,
+  //  ItemDetailsPage,
     FacultyLoginPage,
     StudentLoginPage,
     ListPage
@@ -30,7 +30,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HelloIonicPage,
-    ItemDetailsPage,
+  //  ItemDetailsPage,
     FacultyLoginPage,
     StudentLoginPage,
     ListPage
