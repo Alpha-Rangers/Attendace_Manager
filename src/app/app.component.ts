@@ -29,7 +29,7 @@ export class MyApp {
 
     // set our app's pages
     this.pages = [
-      { title: 'Attendance Manager ', component: HelloIonicPage },
+      { title: 'Home', component: HelloIonicPage },
       { title: 'My First List', component: ListPage }
     ];
   }
