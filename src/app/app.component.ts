@@ -10,6 +10,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { FacultyLoginPage } from '../pages/login-faculty/login-faculty';
 import { StudentLoginPage } from '../pages/login-student/login-student';
+import { ClassSubjectPage } from '../pages/class-subject/class-subject';
 
 
 @Component({
@@ -35,7 +36,9 @@ export class MyApp {
       { title: 'Home', component: HelloIonicPage },
     //  { title: 'My First List', component: ListPage },
       { title: 'Faculty Login', component: FacultyLoginPage },
-      { title: 'Student Login', component: StudentLoginPage }
+      { title: 'Student Login', component: StudentLoginPage },
+      { title: 'Class-Subject', component: ClassSubjectPage }
+
     ];
   }
 

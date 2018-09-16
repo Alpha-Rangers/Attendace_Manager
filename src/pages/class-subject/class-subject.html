@@ -26,12 +26,28 @@
 <ion-item>
   <ion-label>Branch</ion-label>
   <ion-select [(ngModel)]="branch">
-    <ion-option value="fe">Computer</ion-option>
-    <ion-option value="se">IT</ion-option>
-    <ion-option value="te">E&TC</ion-option>
+    <ion-option value="comp">Computer</ion-option>
+    <ion-option value="it">IT</ion-option>
+    <ion-option value="entc">E&TC</ion-option>
   </ion-select>
 </ion-item>
 </ion-list>
+
+<ion-list>
+<ion-item>
+  <ion-label>Subject <ion-icon name="bookmarks"></ion-icon></ion-label>
+  <ion-select [(ngModel)]="subject">
+    <ion-option value="toc">ToC</ion-option>
+    <ion-option value="dbms">DBMS</ion-option>
+    <ion-option value="mp">MP</ion-option>
+  </ion-select>
+</ion-item>
+</ion-list>
+
+<button ion-button icon-end>
+  Next
+  <ion-icon name="arrow-forward"></ion-icon>
+</button>
 
   <!--p>
     <button ion-button color="primary" menuToggle>Toggle Menu</button>
