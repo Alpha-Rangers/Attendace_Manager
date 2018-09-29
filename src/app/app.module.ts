@@ -22,7 +22,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FacultyLoginPage,
     StudentLoginPage,
     ClassSubjectPage,
-    ListPage
+    ListPage,
   ],
   imports: [
     BrowserModule,
@@ -44,4 +44,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
-export class AppModule {}
+export class AppModule {
+
+}
