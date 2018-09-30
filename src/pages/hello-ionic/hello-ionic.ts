@@ -8,4 +8,9 @@ export class HelloIonicPage {
   constructor() {
 
   }
+
+  faculty_()
+  {
+    console.log('Bitchin');
+  }
 }

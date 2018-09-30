@@ -13,6 +13,7 @@ import { StudentLoginPage } from '../pages/login-student/login-student';
 import { ClassSubjectPage } from '../pages/class-subject/class-subject';
 
 
+
 @Component({
   templateUrl: 'app.html'
 })
@@ -28,6 +29,7 @@ export class MyApp {
     public menu: MenuController,
     public statusBar: StatusBar,
     public splashScreen: SplashScreen
+    //private navCtrl: NavController
   ) {
     this.initializeApp();
 

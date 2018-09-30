@@ -3,6 +3,7 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { FacultyLoginPage } from '../pages/login-faculty/login-faculty';
 import { StudentLoginPage } from '../pages/login-student/login-student';
