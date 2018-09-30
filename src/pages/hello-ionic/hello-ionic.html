@@ -11,19 +11,22 @@
 <ion-content padding>
 
   <h3 align=center>Welcome to Attendance Manager !</h3>
-<p align="center">
-    <button type="button" ion-button color="primary">
-      Login As Faculty
-    </button>
-</p>
-  <p align=center>
-    <button ion-button color="primary">
-      Login As Student
-    </button>
-  </p>
+  <h3 align=center>Login</h3>
 
-  <!--p>
-    <button ion-button color="primary" menuToggle>Toggle Menu</button>
-  </p-->
+  <form action=# method="post">
+      <ion-list>
+        <ion-item>
+          <ion-label floating>Username</ion-label>
+          <ion-input type="text" value=""></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      </ion-list>
+    <button ion-button full color="primary" type="submit">Login</button>
+  </form>
+  <ion-label><u>Forgot password?</u></ion-label>
 
 </ion-content>

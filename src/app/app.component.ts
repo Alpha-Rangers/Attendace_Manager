@@ -8,8 +8,8 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { FacultyLoginPage } from '../pages/login-faculty/login-faculty';
-import { StudentLoginPage } from '../pages/login-student/login-student';
+//import { LoginPage } from '../pages/login/login';
+import { StudentPage } from '../pages/student/student';
 import { ClassSubjectPage } from '../pages/class-subject/class-subject';
 
 
@@ -35,8 +35,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HelloIonicPage },
     //  { title: 'My First List', component: ListPage },
-      { title: 'Faculty Login', component: FacultyLoginPage },
-      { title: 'Student Login', component: StudentLoginPage },
+      //{ title: 'Login', component: LoginPage },
+      { title: 'Student Page', component: StudentPage },
       { title: 'Class-Subject', component: ClassSubjectPage }
 
     ];
