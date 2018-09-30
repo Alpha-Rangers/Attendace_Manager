@@ -13,14 +13,11 @@ import { StudentLoginPage } from '../pages/login-student/login-student';
 import { ClassSubjectPage } from '../pages/class-subject/class-subject';
 
 
-
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  @ViewChild(Nav) nav: Nav;
-
-  // make HelloIonicPage the root (or first) page
+@ViewChild(Nav) nav:Nav;
   rootPage = HelloIonicPage;
   pages: Array<{title: string, component: any}>;
 
@@ -29,9 +26,9 @@ export class MyApp {
     public menu: MenuController,
     public statusBar: StatusBar,
     public splashScreen: SplashScreen
-    //private navCtrl: NavController
-  ) {
-    this.initializeApp();
+  )
+    {
+      this.initializeApp();
 
     // set our app's pages
     this.pages = [
@@ -43,6 +40,7 @@ export class MyApp {
 
     ];
   }
+
 
   initializeApp() {
     this.platform.ready().then(() => {
