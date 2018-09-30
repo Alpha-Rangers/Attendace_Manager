@@ -13,6 +13,7 @@ import { StudentPage } from '../pages/student/student';
 import { ClassSubjectPage } from '../pages/class-subject/class-subject';
 
 
+
 @Component({
   templateUrl: 'app.html'
 })
