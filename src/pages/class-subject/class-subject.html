@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>ClassRoom</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+<ion-list>
+<ion-item>
+  <ion-label>Subject <ion-icon name="bookmarks"></ion-icon></ion-label>
+  <ion-select [(ngModel)]="subject">
+    <ion-option value="toc">ToC</ion-option>
+    <ion-option value="dbms">DBMS</ion-option>
+    <ion-option value="mp">MP</ion-option>
+  </ion-select>
+</ion-item>
+</ion-list>
+
+<ion-list>
+<ion-item>
+  <ion-label>Time Slot</ion-label>
+  <ion-select [(ngModel)]="time">
+    <ion-option value="1">8:30 AM - 9:30 AM</ion-option>
+    <ion-option value="2">9:30 AM - 10:30 AM</ion-option>
+    <ion-option value="3">10:45 AM - 11:45 AM</ion-option>
+    <ion-option value="4">11:45 AM - 12:45 PM</ion-option>
+    <ion-option value="5">1:30 PM - 2:30 PM</ion-option>
+    <ion-option value="6">2:30 PM - 3:30 PM</ion-option>
+    <ion-option value="7">3:30 PM - 4:30 PM</ion-option>
+    <ion-option value="8">4:30 PM - 5:30 PM</ion-option>
+  </ion-select>
+</ion-item>
+</ion-list>
+
+<ion-list>
+<ion-item>
+  <ion-label>Date</ion-label>
+  <ion-datetime displayFormat="DD/MM/YYYY"  pickerFormat="DD MMMM YYYY" [(ngModel)]="myDate"></ion-datetime>
+</ion-item>
+</ion-list>
+
+<button ion-button icon-end>
+
+  Next
+  <ion-icon name="arrow-forward"></ion-icon>
+</button>
+
+  <!--p>
+    <button ion-button color="primary" menuToggle>Toggle Menu</button>
+  </p-->
+
+</ion-content>

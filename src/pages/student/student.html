@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>ClassRoom</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h3 align=center>HELLO <!-->INSERT STUDENT NAME HERE<--> !</h3>
+  <h3 align=center>Overall Attendance :<!-->INSERT OVERALL ATTENDANCE HERE<--> </h3>
+  <h1 align=center>75%</h1>
+<!--form action=# method="post"-->
+
+    <ion-list>
+    <ion-item>
+      <ion-label>Subject-wise Attendance <ion-icon name="bookmarks"></ion-icon></ion-label>
+      <ion-select [(ngModel)]="subject">
+        <ion-option value="toc">TOC</ion-option>
+        <ion-option value="dbms">DBMS</ion-option>
+        <ion-option value="mp">MP</ion-option>
+      </ion-select>
+    </ion-item>
+    </ion-list>
+    <button ion-button color="primary" type="submit">Submit</button>
+  <!--/form-->
+
+    <!--p>
+    <button ion-button color="primary" menuToggle>Toggle Menu</button>
+  </p-->
+
+</ion-content>
