@@ -27,6 +27,25 @@
     <button ion-button color="primary" type="submit">Submit</button>
   <!--/form-->
 
+  <!--QR Code-->
+    <ion-item>
+    <ion-input type="text" placeholders="My QR" [(ngModel)]="qrData">
+    </ion-input>
+  </ion-item>
+  <button ion-button full icon-left (click)="createCode()"><ion-icon name="barcode"></ion-icon>Create Code</button>
+  <button ion-button full icon-left (click)="scanCode()"><ion-icon name="qr-code"></ion-icon>Scan Code</button>
+  <ion-card *ngIf="createdCode">
+    <ngx-qrcode [qrc-value]="createdCode"></ngx-qrcode>
+    <ion-card-content>
+      <p>Value: {{createCode}}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card *ngIf="scannedCode">
+    <ion-card-content>
+      Result from scan: {{scannedCode}}
+    </ion-card-content>
+  </ion-card>
     <!--p>
     <button ion-button color="primary" menuToggle>Toggle Menu</button>
   </p-->
